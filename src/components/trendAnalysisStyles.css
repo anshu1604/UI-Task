@@ -1,0 +1,37 @@
+.trend-main-section {
+    height: 350px;
+    border-top: 8px solid lightgray;
+    padding: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.table-container {
+    height: 270px;
+}
+
+.table {
+    width: 100%;
+    color: grey;
+}
+
+th {
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    font-size: 25px;
+}
+
+.td1 {
+    color: green;
+    text-align: center;
+}
+
+.td2 {
+    color: grey;
+    text-align: center;
+}
+
+.text {
+    font-size: 25px;
+}
+
+  

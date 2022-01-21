@@ -1,0 +1,75 @@
+.navbar {
+    height: 160px;
+    width: 100%;
+    border-bottom: 2.5px solid #BBBBBB;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.logo-text {
+    float: left;
+    color: navy;
+    margin-top: 20px;
+    height: 120px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: navy;
+    padding: 20px 0px;
+    margin: 0px 20px;
+    display: inline-block;
+    position: relative;
+    opacity: 0.75;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+  
+.nav-link::before {
+    transition: 300ms;
+    height: 5px;
+    content: "";
+    position: absolute;
+    background-color: navy;
+}
+
+.nav-link-grow-up::before {
+    height: 0%;
+    width: 100%;
+    bottom: 0px;
+}
+  
+.nav-link-grow-up:hover::before {
+    height: 5px;
+}
+
+.navbar-options {
+    width: 1000px;
+    margin-top: 107px;
+    float: right;
+}
+
+.links {
+    float: left;
+    margin-right: 100px;
+}
+
+.active {
+    border-bottom: 3px solid navy;
+}

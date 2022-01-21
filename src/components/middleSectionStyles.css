@@ -1,0 +1,46 @@
+.circle {
+    border: 10px solid lightgray;
+    background-color: #FFFFFF;
+    height: 231px;
+    border-radius:50%;
+    width: 231px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 223px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.questions {
+    float: left;
+    margin: 30px;
+    margin-left: 50px;
+    height: 231px;
+    width: 673px;
+}
+
+.question-section {
+    float: left;
+    margin: 20px;
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: navy;
+    font-size: 20px;
+}
+
+.vl {
+    float: left;
+    border-left: 4px solid lightgray;
+    height: 60px;
+    margin-top: 80px;
+}
+
+.middle-section {
+    width: 100%;
+    height: 300px;
+}
